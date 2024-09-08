@@ -57,6 +57,7 @@ packages    :
         paths:
             - /usr/src
 setup       : |
+    %patch %(pkgdir)/asus-patch-series.patch
     %patch %(pkgdir)/more-ISA-levels-and-uarches-for-kernel-6.1.79+.patch
 
     # Surface Pro support
