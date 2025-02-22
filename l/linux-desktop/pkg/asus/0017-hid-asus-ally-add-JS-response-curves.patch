@@ -1,7 +1,7 @@
-From 8cb2e3363f87aaf8166fc4f2b981f34c8ddb824e Mon Sep 17 00:00:00 2001
+From b5f330b0e9848b00defcb7423e26a248984b17df Mon Sep 17 00:00:00 2001
 From: "Luke D. Jones" <luke@ljones.dev>
 Date: Sun, 6 Oct 2024 21:22:40 +1300
-Subject: [PATCH 16/29] hid-asus-ally: add JS response curves
+Subject: [PATCH 17/28] hid-asus-ally: add JS response curves
 
 Signed-off-by: Luke D. Jones <luke@ljones.dev>
 ---
@@ -10,7 +10,7 @@ Signed-off-by: Luke D. Jones <luke@ljones.dev>
  2 files changed, 141 insertions(+)
 
 diff --git a/drivers/hid/hid-asus-ally.c b/drivers/hid/hid-asus-ally.c
-index 8d2165b52b3b..705e6ab62d85 100644
+index 732b9a175f49..ad1181e12410 100644
 --- a/drivers/hid/hid-asus-ally.c
 +++ b/drivers/hid/hid-asus-ally.c
 @@ -5,10 +5,12 @@
@@ -237,5 +237,5 @@ index 69f59592dd50..c83817589082 100644
  	static struct attribute *_fname##_attrs[] = {                     \
  		&dev_attr_##_fname.attr,                                  \
 -- 
-2.48.1
+2.47.1
 

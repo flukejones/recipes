@@ -1,7 +1,7 @@
-From fa845a26476dd293a133a499ef88fcc2327d3bae Mon Sep 17 00:00:00 2001
+From 7661096726152b9313ace6690754c3866288265b Mon Sep 17 00:00:00 2001
 From: "Luke D. Jones" <luke@ljones.dev>
 Date: Sun, 6 Oct 2024 19:49:24 +1300
-Subject: [PATCH 15/29] hid-asus-ally: add anti-deadzones
+Subject: [PATCH 16/28] hid-asus-ally: add anti-deadzones
 
 Signed-off-by: Luke D. Jones <luke@ljones.dev>
 ---
@@ -10,7 +10,7 @@ Signed-off-by: Luke D. Jones <luke@ljones.dev>
  2 files changed, 112 insertions(+)
 
 diff --git a/drivers/hid/hid-asus-ally.c b/drivers/hid/hid-asus-ally.c
-index 066956922e17..8d2165b52b3b 100644
+index 4ba945940940..732b9a175f49 100644
 --- a/drivers/hid/hid-asus-ally.c
 +++ b/drivers/hid/hid-asus-ally.c
 @@ -286,6 +286,9 @@ struct ally_gamepad_cfg {
@@ -180,5 +180,5 @@ index 32ed5caa3759..69f59592dd50 100644
  
  /* Values correspond to the actual HID byte value required */
 -- 
-2.48.1
+2.47.1
 
